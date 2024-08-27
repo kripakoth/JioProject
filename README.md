@@ -9,21 +9,23 @@ JioProject is developed by [Lavatech Technology](https://lavatechtechnology.com)
 * Ravi
 * Raj
 
-## Installing
+## Pre-requisite
 
-These are the requirements to create your own local dev environment to contribute to Selenium.
+* Core Java
+* Selenium Framework
+* Cucumber
+* Postman
+* TestNG
+* Jenkins
+* Git
 
 ### All Platforms
-* [Bazelisk](https://github.com/bazelbuild/bazelisk), a Bazel wrapper that automatically downloads
-  the version of Bazel specified in `.bazelversion` file and transparently passes through all
-  command-line arguments to the real Bazel binary.
 * Java JDK version 17 or greater (e.g., [Java 17 Temurin](https://adoptium.net/temurin/releases/?version=17))
   * Set `JAVA_HOME` environment variable to location of Java executable (the JDK not the JRE)
   * To test this, try running the command `javac`. This command won't exist if you only have the JRE
   installed. If you're met with a list of command-line options, you're referencing the JDK properly.
 
 ### MacOS
-  * Xcode including the command-line tools. Install the latest version using: `xcode-select --install`
   * Rosetta for Apple Silicon Macs. Add `build --host_platform=//:rosetta` to the `.bazelrc.local` file. We are working
   to make sure this isn't required in the long run.
 
