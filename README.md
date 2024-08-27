@@ -1,8 +1,7 @@
 # JioProject Automation Testing Using Selenium (Java)
 
-Selenium is an umbrella project encapsulating a variety of tools and
-libraries enabling web browser automation. Selenium specifically
-provides an infrastructure for the [W3C WebDriver specification](https://w3c.github.io/webdriver/)
+JioProject is developed by [Lavatech Technology](https://lavatechtechnology.com). This project is initiated by department of IT and is for the purpose of testing and education. 
+
 — a platform and language-neutral coding interface compatible with all
 major web browsers.
 
